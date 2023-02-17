@@ -11,7 +11,7 @@ var block_image_object= "";
 function new_image(get_image)
 {
 	// to upload images
-	fabric.Image.fromURL(get_imagae, function(Img){
+	fabric.Image.fromURL(get_image, function(Img){
 		block_image_object = Img;
 
 		block_image_object.scaleToWidth(block_image_width)
